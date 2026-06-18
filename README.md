@@ -1,5 +1,7 @@
 # Smart Contract Auditor Skill
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Claude Code skill for systematic, checklist-driven security audits of Solidity/EVM smart contracts.
 
 The skill walks Claude through a 370-item checklist spanning 13 categories (attack patterns, DeFi, integrations, tokens, cross-chain, signatures, low-level, and more), anchoring every finding to a checklist item so reasoning is traceable to prior art.
@@ -50,4 +52,6 @@ Claude will scope the contract, load only the relevant reference files, walk the
 
 ## License
 
-Checklist content derives from [Cyfrin/audit-checklist](https://github.com/Cyfrin/audit-checklist) — refer to that repository for the upstream license.
+This skill — `SKILL.md`, the workflow, and the evals — is released under the [MIT License](LICENSE).
+
+The checklist content under `references/` derives from [Cyfrin/audit-checklist](https://github.com/Cyfrin/audit-checklist); refer to that repository for the upstream license governing the underlying data.
